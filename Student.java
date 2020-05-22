@@ -10,10 +10,10 @@ public class Student {
     
     public Student(){
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter a student first name: ");
+        System.out.print("Enter a student first name: ");
         this.firstName = scan.nextLine();
 
-        System.out.println("Enter a student last name: ");
+        System.out.print("Enter a student last name: ");
         this.lastName = scan.nextLine();
 
         System.out.println("1 - Freshman\n2 - Sophmore\n3 - Junior\n4 - Senior\nEnter a student class year: ");
