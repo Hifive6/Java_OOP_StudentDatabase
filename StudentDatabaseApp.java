@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class StudentDatabaseApp{
     public static void main(String[] args) {
         
-        //Ask how many new students we aten to add
+        //Ask how many new students we need to add
         System.out.println("Enter number of Student to enroll: ");
         Scanner scan = new Scanner(System.in);
         int numberOfStudents = scan.nextInt();
